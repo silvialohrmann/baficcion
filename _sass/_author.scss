@@ -4,7 +4,7 @@
   width: 100%;
   padding: rem(40px) 0;
   margin: rem(40px) 0;
-    display:none;
+
   @include media(">=sm") {
     padding: rem(50px) 0;
   }
@@ -17,6 +17,7 @@
     @include media("<sm") {
       text-align: center;
     }
+        display:none;
   }
 
   svg {
