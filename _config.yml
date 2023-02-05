@@ -28,11 +28,11 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_silvialohrmann
-facebook_username: facebook_silvialauralohrmann
-twitter_username: twitter_@SilviaLohrmann
-instagram_username: instagram_lohrmannsilvia
-medium_username: medium_@silvialohrmann
+github_username: silvialohrmann
+facebook_username: silvialauralohrmann
+twitter_username: @SilviaLohrmann
+instagram_username: lohrmannsilvia
+medium_username: @silvialohrmann
 
 
 # Posts Settings
@@ -46,7 +46,7 @@ two_columns_layout: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://buenosairesficcion.com.ar" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+language: "es"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
