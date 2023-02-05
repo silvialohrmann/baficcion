@@ -17,7 +17,6 @@
     @include media("<sm") {
       text-align: center;
     }
-        display:none;
   }
 
   svg {
@@ -89,4 +88,5 @@
       font-size: rem(18px);
     }
   }
+ display:none;
 }
