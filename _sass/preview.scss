@@ -9,7 +9,9 @@
 
 body {
   overflow-x: auto;
-
+@media (max-width: 375px) {
+  font-size: 120%;
+  }
   @include media(">=sm") {
     padding: rem(50px) rem(30px);
   }
@@ -24,12 +26,6 @@ body {
       margin: 0 auto rem(29px);
     }
   }
-  
-  html {
-  @media (max-width: 375px) {
-  font-size: 120%;
-  }
-   }
 
   figure {
     margin: 0;
