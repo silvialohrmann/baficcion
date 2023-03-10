@@ -133,6 +133,9 @@
       color: darken($lightGray, 20%);
       font-size: rem(17px);
       line-height: rem(26px);
+        @media (max-width: 375px) {
+  font-size: 120%;
+  }
     }
 
     .tags a {
