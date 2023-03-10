@@ -9,9 +9,6 @@
 
 body {
   overflow-x: auto;
-@media (max-width: 375px) {
-  font-size: 120%;
-  }
   @include media(">=sm") {
     padding: rem(50px) rem(30px);
   }
@@ -309,4 +306,9 @@ body {
 
 .img-rounded {
   border-radius: 50%;
+}
+html {
+@media (max-width: 375px) {
+  font-size: 120%;
+  }
 }
