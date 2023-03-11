@@ -30,11 +30,11 @@ body.has-push-menu {
 
 aside.sidebar {
   position: fixed;
-  width: rem(240px);
+  width: rem(120px);
   height: 100%;
   top: 0;
   left: rem(-240px);
-  background-color: $accentDark;
+  background-color: $themeColor;
   z-index: 20;
 
   @include media(">=sm") {
@@ -81,7 +81,7 @@ aside.sidebar {
 
           &:hover {
             color: $accentDark;
-            background: $themeColor;
+            background: $primaryDark;
           }
         }
       }
