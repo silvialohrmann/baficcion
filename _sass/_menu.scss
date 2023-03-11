@@ -33,7 +33,7 @@ aside.sidebar {
   width: rem(110px);
   height: 100%;
   top: 0;
-  left: rem(-240px);
+  left: rem(-110px);
   background-color: $themeColor;
   z-index: 20;
 
@@ -74,7 +74,7 @@ display:none;
         a {
           width: 100%;
           display: block;
-          padding: rem(5px) rem(10px);
+          padding: rem(15px) rem(20px);
           text-decoration: none;
           @include mainFont(300);
           color: $primaryDark;
