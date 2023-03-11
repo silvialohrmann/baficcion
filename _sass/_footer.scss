@@ -88,8 +88,8 @@ footer {
 
 .main-page {
   footer {
-    background: #141414;
-    border-top: 1px solid lighten(#141414, 10%);
+    background: $primaryDark;
+    border-top: 1px solid lighten($primaryDark, 10%);
     
     p {
       color: $accentDark;
