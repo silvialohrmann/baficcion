@@ -30,10 +30,10 @@ body.has-push-menu {
 
 aside.sidebar {
   position: fixed;
-  width: rem(110px);
+  width: rem(240px);
   height: 100%;
   top: 0;
-  left: rem(-110px);
+  left: rem(-240px);
   background-color: $themeColor;
   z-index: 20;
 
