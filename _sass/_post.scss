@@ -74,6 +74,7 @@
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
     font-size: x-large;
+    line-height: normal;
 
     @include media(">=sm") {
       font-size: rem(20px);
