@@ -73,7 +73,8 @@
     letter-spacing: 0.025rem;
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
-
+         font-size: x-large;
+         line-height: 3rem;
 
     @include media(">=sm") {
       font-size: rem(20px);
@@ -632,8 +633,6 @@
     @include media(">=sm") {
       font-size: rem(20px);
       padding: 0;
-         font-size: x-large;
-         line-height: 2.2rem;
     }
 
     a {
