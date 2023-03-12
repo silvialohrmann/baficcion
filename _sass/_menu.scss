@@ -16,24 +16,24 @@ body.has-push-menu {
   left: 0;
 
   &.push-menu-to-right {
-    left: rem(240px);
+    left: rem(200px);
 
     .progress-bar {
-      left: rem(240px);
+      left: rem(200px);
     }
 
     .bar-header {
-      left: rem(240px);
+      left: rem(200px);
     }
   }
 }
 
 aside.sidebar {
   position: fixed;
-  width: rem(240px);
+  width: rem(200px);
   height: 100%;
   top: 0;
-  left: rem(-240px);
+  left: rem(-200px);
   background-color: $themeColor;
   z-index: 20;
 
@@ -78,7 +78,7 @@ display:none;
           text-decoration: none;
           @include mainFont(300);
           color: $primaryDark;
-
+font-size: x-large;
           &:hover {
             color: $accentDark;
             background: $primaryDark;
