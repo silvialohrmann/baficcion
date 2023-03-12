@@ -74,7 +74,7 @@
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
          font-size: x-large;
-         line-height: 3rem;
+         line-height: 2.2rem;
 
     @include media(">=sm") {
       font-size: rem(20px);
@@ -574,6 +574,8 @@
       flex-direction: row;
       padding: rem(5px) rem(50px) rem(5px) rem(5px);
       max-width: 50%;
+               font-size: x-large;
+         line-height: 2.2rem;
     }
 
     &:hover {
@@ -675,6 +677,8 @@
       font-size: rem(22px);
       margin-top: rem(80px);
       padding: 0;
+               font-size: x-large;
+         line-height: 2.2rem;
     }
   }
 
