@@ -34,7 +34,7 @@ aside.sidebar {
   height: 100%;
   top: 0;
   left: rem(-200px);
-  background-color: $themeColor;
+  background-color: $texts;
   z-index: 20;
 
   @include media(">=sm") {
@@ -76,7 +76,7 @@ aside.sidebar {
           padding: rem(15px) rem(20px);
           text-decoration: none;
           @include mainFont(300);
-          color: $primaryDark;
+          color: $themeColor;
 font-size: x-large;
           &:hover {
             color: $accentDark;
